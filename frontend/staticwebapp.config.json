@@ -29,5 +29,8 @@
     },
     "globalHeaders": {
         "Cache-Control": "no-cache"
-    }
+    },
+    "networking": {
+  "allowedIpRanges": ["AzureFrontDoor.Backend"]
+}
 }
